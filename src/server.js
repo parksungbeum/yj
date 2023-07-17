@@ -1,3 +1,5 @@
+import "dotenv/config";
+import "./db.js";
 import express from "express";
 import morgan from "morgan";
 import rentalRouter from "./routers/rentalRouter.js";
