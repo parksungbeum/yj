@@ -1,5 +1,5 @@
 import express from "express";
-import { getjoongufoods } from "./src/controllers/foodcotroller.js";
+import { getjoongufoods } from "../controllers/foodcotroller.js";
 
 const foodsrouter = express.Router();
 

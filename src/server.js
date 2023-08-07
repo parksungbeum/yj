@@ -4,7 +4,7 @@ import express from "express";
 import morgan from "morgan";
 import rentalRouter from "./routers/rentalRouter.js";
 import cors from "cors";
-import foodsrouter from "../food_router.js";
+import foodsrouter from "./routers/food_router.js";
 
 const PORT = 8080;
 const app = express();
